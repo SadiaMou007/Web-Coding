@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid red;
+  /*  IT CAN WRK AS MEDIA QUWER--flex-wrap: wrap; */
+}
+.developer {
+  border: 1px solid gray;
+  width: 300px;
+  margin: 5px;
+}
+.developer img {
+  width: 70%;
+  height: 20%;
+}
+
+@media (max-width: 700px) {
+  .developer {
+    margin-bottom: 30px;
+
+    background-color: rgb(231, 211, 236);
+    width: 80%;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .developer {
+    background-color: rgb(188, 125, 207);
+  }
+}
+
+@media (min-width: 900px) {
+  .developer {
+    background-color: rgb(139, 29, 167);
+  }
+}

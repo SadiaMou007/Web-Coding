@@ -1,0 +1,100 @@
+/* flex-box boxes */
+.container {
+  border: 2px solid gray;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: flex-end; */
+
+  align-items: stretch;
+  /* stretch- container size stretch */
+  /* align-items: flex-end; */
+  /* align-items: cneter; */
+  /* Justify content for horizontal change */
+  /* Align items for vertical change */
+}
+.box {
+  font-size: 3em;
+  border: 2px dotted red;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form input,
+button {
+  font-size: 1.5em;
+  border: 1px solid rgb(209, 206, 206);
+  margin-top: 15px;
+  border-radius: 4px;
+}
+.login-form button {
+  padding: 10px;
+  background-color: rgb(67, 114, 67);
+  color: aliceblue;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: rgb(6, 43, 3);
+  font-weight: 700;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* grid */
+.grid-container {
+  padding: 30px;
+  border: 1px solid blue;
+  display: grid;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: repeat(2, 1fr) 2fr;
+
+  /* grid-template-columns: (4, 25%); */
+  grid-gap: 20px;
+}
+.grid-cell {
+  border: 1px solid goldenrod;
+  font-size: 1.5em;
+}
+
+/* calender */
+.calender-container {
+  padding: 30px;
+  height: 400px;
+  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 2em repeat(5, 1fr);
+  grid-gap: 5px 10px;
+}
+.calender-cells,
+.days {
+  font-size: 1.5em;
+  border: 1px solid rgb(124, 122, 122);
+  background-color: lightsteelblue;
+  /* now flex and bring horizontal center  */
+  display: flex;
+  justify-content: center;
+  /* finally vertical center */
+  align-items: center;
+  border-radius: 4px;
+}
+.other-month {
+  background-color: rgba(144, 171, 187, 0.322);
+}

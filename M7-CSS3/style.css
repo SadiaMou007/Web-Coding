@@ -1,0 +1,27 @@
+section {
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+}
+#id-1 {
+  background-color: aqua;
+  display: none;
+}
+#id-2 {
+  background-color: rgb(75, 121, 121);
+}
+#id-3 {
+  background-color: rgb(87, 145, 145);
+  visibility: hidden;
+}
+#id-4 {
+  background-color: rgb(15, 182, 182);
+}
+/* 7.2 */
+.mega-box{
+ 
+}

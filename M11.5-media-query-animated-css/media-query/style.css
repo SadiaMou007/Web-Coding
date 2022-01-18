@@ -1,0 +1,22 @@
+.welcome-msg {
+  background-color: lightblue;
+  height: 300px;
+}
+@media only screen and (max-width: 688px) {
+  .welcome-msg {
+    background-color: lightgreen;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .welcome-msg {
+    background-color: rgb(158, 144, 238);
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .welcome-msg {
+    background-color: rgb(7, 5, 20);
+    height: 700px;
+  }
+}
