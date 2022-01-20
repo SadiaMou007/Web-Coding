@@ -1,0 +1,10 @@
+.form {
+  background-color: rgba(3, 34, 3, 0.37);
+  padding: 10px;
+}
+.covered {
+  background-size: cover;
+}
+.mheight {
+  height: 500px;
+}
