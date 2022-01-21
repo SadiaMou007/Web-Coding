@@ -1,0 +1,26 @@
+body {
+  background-color: #e5e5e5;
+}
+.t-centering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 80px;
+}
+.fa-star.filled,
+.fa-star-half-alt.filled {
+  color: #ffc014;
+}
+.fa-star,
+.fa-star-half-alt,
+span {
+  font-size: 12px;
+}
+.vajal {
+  color: rgba(237, 107, 79, 1);
+  border: 1px solid rgba(237, 107, 79, 1);
+  border-radius: 8px;
+}

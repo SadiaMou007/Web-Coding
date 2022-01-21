@@ -4,7 +4,269 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Responsive LEaderboard</title>
+    <!-- bootstrap-css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font-awsome -->
+    <script
+      src="https://kit.fontawesome.com/a4a8ce0daf.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav
+        class="fixed-top navbar navbar-expand-lg navbar-dark n-height"
+        style="background-color: rgba(86, 46, 255, 1)"
+      >
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#"
+            ><img
+              src="images/icons/logo.png"
+              alt=""
+              width="40"
+              height="51"
+              class="d-inline-block align-text-top"
+            />
+            <span class="ms-2">Idea</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#c2">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#c3">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><img
+                    src="images/icons/profile.png"
+                    alt=""
+                    width="51"
+                    height="51"
+                    class="d-inline-block align-text-top"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container bg-white rounded pb-4 mt-4">
+        <div>
+          <h4 class="p-2" style="color: #562eff">Top Players</h4>
+          <div class="row gy-3">
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex justify-content-center align-items-center p-2"
+            >
+              <img width="56px" src="images/players/player-1.png" alt="" />
+              <h4 class="ms-3">John Smith</h4>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex justify-content-center align-items-center p-2"
+            >
+              <img width="56px" src="images/players/player-2.png" alt="" />
+              <h4 class="ms-3">John Smith</h4>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex justify-content-center align-items-center p-2"
+            >
+              <img width="56px" src="images/players/player-3.png" alt="" />
+              <h4 class="ms-3">John Smith</h4>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex justify-content-center align-items-center p-2"
+            >
+              <img width="56px" src="images/players/player-4.png" alt="" />
+              <h4 class="ms-3">John Smith</h4>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex justify-content-center align-items-center p-2"
+            >
+              <img width="56px" src="images/players/player-5.png" alt="" />
+              <h4 class="ms-3">John Smith</h4>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex justify-content-center align-items-center p-2"
+            >
+              <img width="56px" src="images/players/player-6.png" alt="" />
+              <h4 class="ms-3">John Smith</h4>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="container bg-white rounded pb-4" id="c2">
+        <div>
+          <h4 class="p-2" style="color: #562eff">Top Blogs</h4>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 p-2">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2">
+                <img
+                  class="img-fluid ps-4"
+                  src="images/blogs/blog-1.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2 t-centering">
+                <h3>13 of My Favorite UI/UX Goodies</h3>
+                <p>
+                  By <a class="text-decoration-none" href="">Sadia Islam</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 p-2">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2">
+                <img
+                  class="img-fluid ps-4"
+                  src="images/blogs/blog-2.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2 t-centering">
+                <h3>UI cheat sheet: <br />list vs grids</h3>
+                <p>
+                  By <a class="text-decoration-none" href="">Sadia Islam</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 p-2">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2">
+                <img
+                  class="img-fluid ps-4"
+                  src="images/blogs/blog-3.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2 t-centering">
+                <h3>
+                  7 typography tips<br />
+                  for interface desig
+                </h3>
+                <p>
+                  By <a class="text-decoration-none" href="">Sadia Islam</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 p-2">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2">
+                <img
+                  class="img-fluid ps-4"
+                  src="images/blogs/blog-4.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 p-2 t-centering">
+                <h3>Your logo is copied</h3>
+                <p>
+                  By <a class="text-decoration-none" href="">Sadia Islam</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container bg-white rounded pb-4 mt-5 mb-5" id="c3">
+        <div>
+          <h4 class="p-2" style="color: #562eff">Latest Courses</h4>
+          <div class="row g-5">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="images/courses/course-1.png" alt="" />
+              <h3>React- The Complete Guide 2020</h3>
+              <p><a class="text-decoration-none" href="">Read Crackoff</a></p>
+
+              <div class="d-flex">
+                <div>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star-half-alt filled"></i></span>
+                  <span>4.5</span>
+                </div>
+
+                <div class="mx-5 vajal">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>01:30 hr</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="images/courses/course-2.png" alt="" />
+              <h3>React- The Complete Guide 2020</h3>
+              <p><a class="text-decoration-none" href="">Read Crackoff</a></p>
+
+              <div class="d-flex .justify-content-between">
+                <div>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star-half-alt filled"></i></span>
+                  <span>4.5</span>
+                </div>
+
+                <div class="mx-5 vajal">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>01:30 hr</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <img class="img-fluid" src="images/courses/course-3.png" alt="" />
+              <h3>React- The Complete Guide 2020</h3>
+              <p><a class="text-decoration-none" href="">Read Crackoff</a></p>
+
+              <div class="d-flex">
+                <div>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star filled"></i></span>
+                  <span><i class="fas fa-star-half-alt filled"></i></span>
+                  <span>4.5</span>
+                </div>
+
+                <div class="mx-5 vajal">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>01:30 hr</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
