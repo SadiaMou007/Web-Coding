@@ -10,13 +10,10 @@
 }
 .c-watch {
   background-image: linear-gradient(rgb(233, 206, 85), rgb(240, 177, 95));
-  border-radius: 10px;
 }
 .c-bags {
   background-image: linear-gradient(rgb(230, 117, 230), rgb(218, 30, 218));
-  border-radius: 10px;
 }
 .c-shoes {
   background-image: linear-gradient(rgb(97, 125, 218), rgb(48, 25, 177));
-  border-radius: 10px;
 }
