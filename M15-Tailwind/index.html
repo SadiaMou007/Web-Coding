@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-6xl font-bold">hello</h1>
+    <button class="bg-emerald-600 text-blue-100 p-4">see more</button>
+    <!-- padding,marginborder -->
+    <section>
+      <div class="container mx-auto border-2 border-red-600 my-3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          hic?
+        </p>
+      </div>
+      <div class="container mx-auto border-2 border-blue-600 my-3 ml-5">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          hic?
+        </p>
+      </div>
+      <div class="container mx-auto border-2 border-yellow-600 my-3 -ml-10">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          hic?
+        </p>
+      </div>
+      <div class="container mx-auto border-2 border-purple-600 my-3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          hic?
+        </p>
+      </div>
+      <div class="container mx-auto border-2 border-violet-600 my-3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          hic?
+        </p>
+      </div>
+    </section>
+    <!-- flex -->
+    <h2 class="text-5xl my-3">Flex</h2>
+
+    <section class="flex items-center h-64 border-2 container mx-auto">
+      <div
+        class="border-2 border-purple-600 h-40 flex justify-center items-center m-3"
+      >
+        <p class="text-3xl">Lorem ipsum dolor sit amet consectetur</p>
+      </div>
+      <div
+        class="border-2 border-purple-600 h-40 flex justify-center items-center m-3"
+      >
+        <p class="text-3xl">Lorem ipsum dolor sit amet consectetur</p>
+      </div>
+      <div
+        class="border-2 border-purple-600 h-40 flex justify-center items-center m-3"
+      >
+        <p class="text-3xl">Lorem ipsum dolor sit amet consectetur</p>
+      </div>
+    </section>
+    <!-- grid -->
+    <h2 class="text-5xl my-3">Grid</h2>
+    <div class="bg-emerald-600 grid grid-cols-3">
+      <div class="bg-gray-200 m-2 p-2 col-span-2">1</div>
+      <div class="bg-gray-200 m-2 p-2">2</div>
+      <div class="bg-gray-200 m-2 p-2">3</div>
+      <div class="bg-gray-200 m-2 p-2 row-span-2">4</div>
+      <div class="bg-gray-200 m-2 p-2">5</div>
+      <div class="bg-gray-200 m-2 p-2">6</div>
+      <div class="bg-gray-200 m-2 p-2">7</div>
+      <div class="bg-gray-200 m-2 p-2">8</div>
+      <div class="bg-gray-200 m-2 p-2">9</div>
+      <div class="bg-gray-200 m-2 p-2">10</div>
+      <div class="bg-gray-200 m-2 p-2">11</div>
+      <div class="bg-gray-200 m-2 p-2">12</div>
+      <div class="bg-gray-200 m-2 p-2">13</div>
+      <div class="bg-gray-200 m-2 p-2">14</div>
+      <div class="bg-gray-200 m-2 p-2">15</div>
+    </div>
+    <!-- full website layout using grid -->
+    <div class="text-5xl my-3">Full layout</div>
+    <section class="grid grid-cols-3 gap-4">
+      <div class="bg-purple-200 p-4 col-span-3">1</div>
+      <div class="bg-purple-200 p-4 col-span-2 row-span-2 h-64">2</div>
+      <div class="bg-purple-200 p-4 row-span-2">3</div>
+      <div class="bg-purple-200 p-4 col-span-3">4</div>
+    </section>
+  </body>
+</html>
