@@ -10,3 +10,5 @@ let a = 5;
 let b = 20;
 let c = 10;
 console.log(min(a, b, c));
+// or by using max / min function
+// console.log(Math.max(a, b, c));
