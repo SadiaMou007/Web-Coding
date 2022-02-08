@@ -1,0 +1,15 @@
+body {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid rgb(238, 223, 223);
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover {
+  border: 2px solid rgba(114, 96, 96, 0.575);
+  opacity: 0.9;
+  background-color: rgba(0, 139, 139, 0.555);
+}

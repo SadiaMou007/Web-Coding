@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Mostly used: method 2 (calling a function) and method 7 (direct shortcut)
+    </h1>
+    <section class="sec-1">
+      <!-- method 1 -->
+      <h1>Method 1: Direct implementation</h1>
+      <h3>Not usefull for coding</h3>
+      <button onclick="document.body.style.backgroundColor='yellow'">
+        Click Me: Yellow
+      </button>
+      <!-- method 2 -->
+      <h1>Method 2: Calling a function</h1>
+      <h3>Usefull for coding</h3>
+      <button onclick="makeRed()">Click Me: Red</button>
+      <!-- method3 -->
+      <h1>Method 3: Using Get Element By Id</h1>
+      <h3>Usefull for coding</h3>
+      <button id="btn-3">Click Me: Blue</button>
+      <!-- method4 -->
+      <h1>Method 4: Using Get Element By Id and anonymous function</h1>
+      <h3>Shortcut of Method 3</h3>
+      <button id="btn-4">Click Me: Green</button>
+      <!-- method5 -->
+      <h1>Method 5: Using ID and addEvent Listener</h1>
+      <h3>Most used method</h3>
+      <button id="btn-5">Click Me: GoldenRod</button>
+      <!-- method6 -->
+      <h1>Method 6: Using ID,addEvent Listener and direct function</h1>
+      <h3>Shortcut of method 5</h3>
+      <button id="btn-6">Click Me: HotPink</button>
+      <!-- Method7 -->
+      <h1>Method 7: Direct shortcut with add event listener</h1>
+      <h3>Implement without any variable</h3>
+      <button id="btn-7">Click Me: lightgreen</button>
+    </section>
+    <!-- practice -->
+    <hr />
+    <section class="sec-2">
+      <p id="addFunctionEvent"></p>
+      <button onclick="adP()">click to add event</button>
+      <p id="addEventListener"></p>
+      <button id="eventListenerBtn">click to add event2</button>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
