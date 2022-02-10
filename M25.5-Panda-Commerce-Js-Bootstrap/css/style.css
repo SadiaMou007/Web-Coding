@@ -1,0 +1,22 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+} */
+.mnavbar {
+  height: 80px;
+}
+.mslider {
+  margin-top: 80px;
+}
+#c-watch {
+  background-image: linear-gradient(rgb(250, 104, 6), rgb(245, 230, 219));
+}
+#c-bags {
+  background-image: linear-gradient(rgb(255, 0, 191), rgb(226, 181, 211));
+}
+#c-shoes {
+  background-image: linear-gradient(rgb(0, 238, 255), rgb(197, 228, 233));
+}
