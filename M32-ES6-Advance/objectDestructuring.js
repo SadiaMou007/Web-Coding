@@ -11,8 +11,14 @@ console.log(phone, name, status);
 // Complex example //
 const company = {
   cName: "Bjit",
-  ceo: { name: "Mr Z", phone: "01717XXX" },
-  employee: { female: "22", male: 22 },
+  ceo: {
+    name: "Mr Z",
+    phone: "01717XXX",
+  },
+  employee: {
+    female: "22",
+    male: 22,
+  },
   framework: {
     frontend: { first: "Bootstrap", second: "react" },
     backend: "vary",
