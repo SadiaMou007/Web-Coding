@@ -13,7 +13,13 @@ const company = {
   cName: "Bjit",
   ceo: { name: "Mr Z", phone: "01717XXX" },
   employee: { female: "22", male: 22 },
-  framework: { frontend: "react", backend: "vary" },
+  framework: {
+    frontend: { first: "Bootstrap", second: "react" },
+    backend: "vary",
+  },
 };
 const { cName, ceo, framework } = company;
-console.log(cName, ceo.phone, framework.backend);
+console.log(cName, ceo.phone, framework.frontend.second);
+// or
+const { first, second } = company.framework.frontend;
+console.log(first, second);
