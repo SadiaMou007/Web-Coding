@@ -4,12 +4,15 @@ function loadUserData() {
     .then((data) => getInfo(data));
 }
 function getInfo(values) {
+  const usersId = document.getElementById("users");
+
   for (const i of values) {
-    const usersId = document.getElementById("users");
-    console.log(i.name);
+    console.log(i);
     const li = document.createElement("li");
+    li.classList.add("bg-info", "p-2", "bg-opacity-25", "col-lg-4", "g-2");
     li.innerHTML = `
-       ${i.name}
+      Name: ${i.name} <br>
+      Email: ${i.email}
         `;
     usersId.appendChild(li);
   }
