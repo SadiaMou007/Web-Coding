@@ -9,7 +9,14 @@ function getInfo(values) {
   for (const i of values) {
     console.log(i);
     const li = document.createElement("li");
-    li.classList.add("bg-info", "p-2", "bg-opacity-25", "col-lg-4", "g-2");
+    li.classList.add(
+      "bg-info",
+      "p-2",
+      "bg-opacity-50",
+      "col-lg-4",
+      "g-2",
+      "rounded"
+    );
     li.innerHTML = `
       Name: ${i.name} <br>
       Email: ${i.email}
