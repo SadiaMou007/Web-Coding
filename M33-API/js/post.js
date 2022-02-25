@@ -4,9 +4,9 @@ function getPost() {
     .then((data) => showPost(data));
 }
 showPost = (data) => {
+  const posts = document.getElementById("posts");
   for (const post of data) {
-    console.log(post);
-    const posts = document.getElementById("posts");
+    // console.log(post);
     const div = document.createElement("div");
     div.classList.add("col-lg-3");
     div.innerHTML = `
