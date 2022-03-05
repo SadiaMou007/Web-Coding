@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: blue;
+        text-align: center;
+        padding: 5px;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        color: white;
+
+        background-image: url(./bg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      .btns {
+        margin: 20px;
+        padding: 10px;
+      }
+      button {
+        background-color: rgb(112, 53, 179);
+        margin: 3px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 65% 70% 70% 65% / 40% 40% 75% 75%;
+        transition: all 0.2s ease-in-out;
+      }
+      button:hover {
+        transform: scale(1.1);
+        background-color: rgb(80, 189, 152);
+      }
+    </style>
+  </head>
+  <body>
+    <header><h2>Navbar</h2></header>
+    <section class="btns">
+      <h1>Hello there</h1>
+      <button onclick="loadprompt()">Prompt</button>
+      <button onclick="loadconfirm()">Confirm</button>
+      <button onclick="loadalert()">Alert</button>
+      <p id="p2"></p>
+      <p id="p"></p>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
