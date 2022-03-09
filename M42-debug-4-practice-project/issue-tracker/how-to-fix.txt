@@ -1,0 +1,10 @@
+1.if no issue in local storage show error(ref-error)
+= issues?.length()
+2.close btn dosen't work (ref-error)
+setStatusClosed() function was named as closeStatus() (re-name it)
+3.undefined status (type-error) issue.id(string),id(number)
++issue.id===id
+4.delete btn dosen;t work(ref-error)
+for filter issues need: issues.filter(issue=> +issue.id===id)
+5. delete btn works for storage only not ui
+call fetch-issue function in delete issue function
