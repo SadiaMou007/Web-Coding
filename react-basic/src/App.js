@@ -82,7 +82,6 @@ function Users() {
   );
 }
 function UserInfo(props) {
-  console.log(props);
   return (
     <div>
       <div className="singleUser">
