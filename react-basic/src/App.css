@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(183, 198, 226);
+  padding: 10px;
+  border: 1px solid rgb(133, 133, 145);
+  box-shadow: 1px 2px;
+  margin: 8px;
+  border-radius: 20px;
+}
+.person {
+  background-color: rgb(197, 238, 224);
+  padding: 20px;
+  border: 1px solid rgb(207, 207, 241);
+  box-shadow: 1px 2px;
+  margin: 8px;
+  border-radius: 10px;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container3 {
+  background-color: beige;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgb(207, 207, 241);
+  box-shadow: 1px 2px;
+  border-radius: 10px;
+}
+.container4{
+  background-color: rgb(230, 232, 236);
+  border: 1px solid rgb(133, 133, 145);
+  box-shadow: 1px 2px;
+  border-radius: 5px;
+}
+.users{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 10px;
+}
+.singleUser{
+  background-color: rgb(247, 247, 247);
+  /* border: 1px solid gray; */
+  box-shadow: 2px 2px rgb(210, 213, 231);
+  color: brown;
+  padding: 5px;
+}
