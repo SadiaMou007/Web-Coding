@@ -55,8 +55,8 @@ const MyLineChart = () => {
   ];
   return (
     <div className="grid grid-cols-1">
-      <div className="border-4 p-4 m-4">
-        <LineChart width={800} height={450} data={data}>
+      <div className="border-4 p-4 m-4 ">
+        <LineChart width={400} height={450} data={data}>
           <Line dataKey={"price"} stroke="#8804d8"></Line>
           <Line dataKey={"sales"} stroke="#834a12"></Line>
 
