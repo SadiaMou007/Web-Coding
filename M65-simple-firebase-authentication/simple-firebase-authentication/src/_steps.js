@@ -12,3 +12,9 @@
  * 10. use sign in with pop up and pass auth and provider
  * 11. handle then(if success) and catch (if error)
  */
+/**
+ * for show user info:
+ * 1. create useState and set .then data in state and use this dynamically inside return
+ * For sign out:
+ * 1. use previous state to clear state variables using try catch
+ */
