@@ -1,0 +1,55 @@
+.c {
+  width: 50%;
+  margin: auto;
+  border: 1px solid rgb(240, 234, 234);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0.5px 1.5px rgb(251, 240, 240);
+}
+.login-c {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+.login-c h3 {
+  margin: 10px;
+}
+.input-section {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.input-section label {
+  font-weight: bold;
+}
+.input-wrapper {
+  margin-top: 5px;
+}
+.input-wrapper input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(216, 205, 205);
+}
+.error {
+  color: rgb(214, 33, 33);
+}
+.g-btn {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.or {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.g-color {
+  background-color: white;
+  border: 1px solid rgb(79, 155, 206);
+  color: rgb(79, 155, 206);
+}
+.s-color {
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+}
