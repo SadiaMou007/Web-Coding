@@ -1,9 +1,14 @@
+import { getAuth, signOut } from "firebase/auth";
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 import { NavLink } from "react-router-dom";
-import useFirebase from "../../Hooks/useFirebase";
+import app from "../../firebase.init";
+//
 
+const auth = getAuth(app);
 const Header = () => {
-  const { user, handleSignOut } = useFirebase();
+  // const { user, handleSignOut } = useFirebase();
+  const [user] = useAuthState(auth);
   console.log(user);
   return (
     <div>
@@ -52,7 +57,7 @@ const Header = () => {
           </div>
           <div className="mx-3">
             {user?.uid ? (
-              <button onClick={handleSignOut}>Logout</button>
+              <button onClick={() => signOut(auth)}>Logout</button>
             ) : (
               <NavLink
                 className={({ isActive }) =>
