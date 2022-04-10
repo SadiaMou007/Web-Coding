@@ -15,7 +15,6 @@ const Register = () => {
                 <input
                   type="text"
                   name="name"
-                  id=""
                   placeholder="First name"
                   className="border-2 border-gray-100 w-full p-2 rounded"
                 />
@@ -27,7 +26,6 @@ const Register = () => {
                 <input
                   type="text"
                   name="name"
-                  id=""
                   placeholder="last name"
                   className="border-2 border-gray-100 w-full p-2 rounded"
                 />
@@ -40,7 +38,6 @@ const Register = () => {
               <input
                 type="email"
                 name="email"
-                id=""
                 placeholder="email"
                 className="border-2 border-gray-100 w-full p-2 rounded"
               />
@@ -52,7 +49,6 @@ const Register = () => {
               <input
                 type="password"
                 name="password"
-                id=""
                 placeholder="password"
                 className="border-2 border-gray-100 w-full p-2 rounded"
               />
