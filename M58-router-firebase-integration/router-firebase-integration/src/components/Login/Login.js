@@ -2,6 +2,7 @@ import { getAuth } from "firebase/auth";
 import app from "../../firebase.init";
 
 import React from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 // import useFirebase from "../../Hooks/useFirebase";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 
@@ -9,7 +10,18 @@ const auth = getAuth(app); //new
 
 const Login = () => {
   // const { signInWithGoogle } = useFirebase();
-  const [signInWithGoogle, user] = useSignInWithGoogle(auth); //new
+  //new
+  const [signInWithGoogle] = useSignInWithGoogle(auth);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const from = location?.state?.from?.pathname || "/";
+
+  const handleGoogleSignIn = () => {
+    signInWithGoogle().then(() => {
+      navigate(from, { replace: true });
+    });
+  };
+
   return (
     <div className="">
       <div className="p-5 my-8 text-cyan-600">
@@ -55,7 +67,7 @@ const Login = () => {
               type="submit"
               className=" bg-blue-500 font-bold w-full p-2 rounded text-white hover:bg-blue-600 "
               // onClick={signInWithGoogle}
-              onClick={() => signInWithGoogle()}
+              onClick={handleGoogleSignIn}
             >
               Sign Up Using Google
             </button>
