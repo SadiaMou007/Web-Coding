@@ -16,7 +16,7 @@ const Experts = () => {
     { id: 6, img: e6 },
   ];
   return (
-    <div className="container bg-light py-2">
+    <div className="container bg-light py-2" id="experts">
       <h2 className="text-info text-center my-3 p-2 bg-white">Experts</h2>
       <div className="row bg-white g-4 border my-3">
         {exp.map((expert) => (

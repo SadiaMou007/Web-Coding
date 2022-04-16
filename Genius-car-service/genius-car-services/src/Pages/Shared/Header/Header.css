@@ -1,15 +1,10 @@
-.header-container {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80px;
-  border: 1px solid red;
-  width: 100%;
-}
-
 .header-link {
   text-decoration: none;
-  font-weight: 600;
-  color: rgb(85, 122, 11);
+  font-weight: 500;
+  color: gray;
+  font-size: 20px;
+  margin-right: 12px;
+}
+.header-link:hover {
+  color: brown;
 }
