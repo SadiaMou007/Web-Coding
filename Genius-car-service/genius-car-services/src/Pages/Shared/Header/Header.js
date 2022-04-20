@@ -27,7 +27,7 @@ const Header = () => {
             <CustomLink
               to={"/services"}
               className="header-link"
-              href="#services"
+              href="/services"
             >
               Services
             </CustomLink>

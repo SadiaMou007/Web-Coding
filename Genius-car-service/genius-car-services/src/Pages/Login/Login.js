@@ -4,6 +4,8 @@ import { Button, Form } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
+import Loading from "../Shared/Loading/Loading";
+import PageTitle from "../Shared/PageTitle/PageTitle";
 import "./Login.css";
 
 const Login = () => {
@@ -29,10 +31,14 @@ const Login = () => {
   if (user) {
     navigate(from, { replace: true });
   }
-
+  if (loading) {
+    <Loading></Loading>;
+  }
   return (
-    <div className="bg border">
-      <div className="bg-white w-50 p-4 mt-5 mx-auto text-dark">
+    <div className="bg-container">
+      <PageTitle title={"Login"}></PageTitle>
+      <div className="content w-50 p-4 mx-auto text-dark  bg-white">
+        <h2 className="">Login</h2>
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
