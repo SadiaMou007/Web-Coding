@@ -36,7 +36,15 @@ const Header = () => {
             </CustomLink>
 
             {user ? (
-              <button onClick={handleSingout}>Logout</button>
+              <>
+                <CustomLink to={"/addService"} className="header-link">
+                  Add Service
+                </CustomLink>
+                <CustomLink to={"/manageService"} className="header-link">
+                  Manage Service
+                </CustomLink>
+                <button onClick={handleSingout}>Logout</button>
+              </>
             ) : (
               <CustomLink to={"/login"} className="header-link">
                 Login
