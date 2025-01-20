@@ -1,7 +1,6 @@
 # important #
-### Module 30.5 (Event Bubble)
-### Module 31 (Recap DOM Event)
-### Module 33 (API)
-### Module #38 (Set Interval,timeout and real time show)
-### React Basic
-### Module 56,57 Firebase Basic conceptual
+### 30.5 (Event Bubble)
+### 31 (Recap DOM Event)
+### 33 (API)
+### 38 (Set Interval,timeout and real time show)
+### 56,57 Firebase
