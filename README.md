@@ -1,4 +1,3 @@
-# important #
 ### 30.5 (Event Bubble)
 ### 31 (Recap DOM Event)
 ### 33 (API)
